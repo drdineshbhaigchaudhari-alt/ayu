@@ -10,7 +10,7 @@ export const departments = [
     about: "From fractures and sports injuries to arthritis and back pain, our orthopaedic surgeons combine careful diagnosis with modern, minimally invasive techniques and a structured physiotherapy plan.",
     treats: ["Fractures and trauma", "Knee and hip pain", "Arthritis", "Spine and back pain", "Sports injuries"],
     tests: ["Digital X-ray", "Bone density scan", "Joint aspiration"] },
-  { slug: "obstetrics-gynaecology", name: "Obstetrics & Gynaecology", icon: "FaBaby", img: "slide-4.jpg",
+  { slug: "obstetrics-gynaecology", name: "Obstetrics & Gynaecology", icon: "FaBaby", img: "maternity-2.jpg",
     short: "Compassionate care for women, through every stage of life.",
     about: "We support women from the first antenatal visit to a safe delivery and beyond, with a calm labour room, a dedicated newborn corner, and gynaecological care for every age.",
     treats: ["Antenatal and postnatal care", "Normal and caesarean delivery", "PCOS and irregular periods", "Fertility counselling", "Menopause care"],
@@ -63,7 +63,7 @@ export const departments = [
 ];
 
 export const centres = [
-  { title: "Women & Maternity Care", text: "A warm, safe space for pregnancy, delivery and newborn care.", img: "maternity-2.jpg", to: "/departments/obstetrics-gynaecology" },
+  { title: "Women & Maternity Care", text: "A warm, safe space for pregnancy, delivery and newborn care.", img: "maternity.jpg", to: "/departments/obstetrics-gynaecology" },
   { title: "Surgery & Day Care", text: "Modern operation theatres with keyhole surgery expertise.", img: "card-surgery.jpg", to: "/departments/general-surgery" },
   { title: "Child Health", text: "Friendly paediatric care from the very first day.", img: "child.jpg", to: "/departments/paediatrics" },
   { title: "24×7 Emergency", text: "Always-open emergency and trauma care.", img: "card-ambulance.jpg", to: "/facilities" },

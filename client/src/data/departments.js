@@ -10,7 +10,7 @@ export const departments = [
     about: "From fractures and sports injuries to arthritis and back pain, our orthopaedic surgeons combine careful diagnosis with modern, minimally invasive techniques and a structured physiotherapy plan.",
     treats: ["Fractures and trauma", "Knee and hip pain", "Arthritis", "Spine and back pain", "Sports injuries"],
     tests: ["Digital X-ray", "Bone density scan", "Joint aspiration"] },
-  { slug: "obstetrics-gynaecology", name: "Obstetrics & Gynaecology", icon: "FaBaby", img: "maternity-2.jpg",
+  { slug: "obstetrics-gynaecology", name: "Obstetrics & Gynaecology", icon: "FaBaby", img: "obstetrics.jpg",
     short: "Compassionate care for women, through every stage of life.",
     about: "We support women from the first antenatal visit to a safe delivery and beyond, with a calm labour room, a dedicated newborn corner, and gynaecological care for every age.",
     treats: ["Antenatal and postnatal care", "Normal and caesarean delivery", "PCOS and irregular periods", "Fertility counselling", "Menopause care"],

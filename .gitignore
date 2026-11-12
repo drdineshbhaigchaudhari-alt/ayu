@@ -1,0 +1,4 @@
+node_modules
+client/dist
+scratch_raw
+server/data/*.json

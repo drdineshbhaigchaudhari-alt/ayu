@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "node --watch index.js",
-    "build": "npm install --prefix ../client --include=dev && npm run build --prefix ../client"
+    "build": "npm install --prefix ../client --include=dev && npm run build --prefix ../client && node -e \"require('fs').cpSync('../client/dist','public',{recursive:true})\""
   },
   "dependencies": { "cors": "^2.8.5", "express": "^4.21.1" }
 }

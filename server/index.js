@@ -6,7 +6,9 @@ import { fileURLToPath } from "node:url";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.join(__dirname, "data");
-const distDir = path.join(__dirname, "..", "client", "dist");
+// Prefer a copy of the built site inside server/ (self-contained deploys), else client/dist.
+const localDist = path.join(__dirname, "public");
+const distDir = fs.existsSync(localDist) ? localDist : path.join(__dirname, "..", "client", "dist");
 const PORT = process.env.PORT || 5000;
 
 const app = express();

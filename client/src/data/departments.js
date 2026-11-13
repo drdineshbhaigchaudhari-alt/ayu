@@ -65,6 +65,6 @@ export const departments = [
 export const centres = [
   { title: "Women & Maternity Care", text: "A warm, safe space for pregnancy, delivery and newborn care.", img: "maternity.jpg", to: "/departments/obstetrics-gynaecology" },
   { title: "Surgery & Day Care", text: "Modern operation theatres with keyhole surgery expertise.", img: "card-surgery.jpg", to: "/departments/general-surgery" },
-  { title: "Child Health", text: "Friendly paediatric care from the very first day.", img: "child.jpg", to: "/departments/paediatrics" },
+  { title: "Child Health", text: "Friendly paediatric care from the very first day.", img: "child-health.jpg", to: "/departments/paediatrics" },
   { title: "24×7 Emergency", text: "Always-open emergency and trauma care.", img: "card-ambulance.jpg", to: "/facilities" },
 ];

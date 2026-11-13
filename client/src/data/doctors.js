@@ -1,5 +1,8 @@
 // PLACEHOLDER names and details. Replace with your real consultants (keep the photo file names or update `img`).
+// `exp` is optional; leave it out when unknown and the cards will skip it.
 export const doctors = [
+  { slug: "dr-subashchand", name: "Dr. Subashchand", role: "Senior Consultant, Radiation Oncology", dept: "radiation-oncology", speciality: "Radiation Oncology", qual: "MD (Radiation Oncology)", img: "dr-subashchand.jpg",
+    bio: "Dr. Subashchand is a Senior Consultant in Radiation Oncology, planning and supervising radiation treatment for patients with cancer and working with the wider care team to support patients and families throughout treatment." },
   { slug: "dr-rajesh-khanna", name: "Dr. Rajesh Khanna", role: "Senior Consultant, Cardiology", dept: "cardiology", exp: "25 yrs", qual: "MBBS, MD, DM (Cardiology)", img: "doctor-1.jpg",
     bio: "Dr. Khanna leads the cardiology programme, with a focus on heart-attack care, heart failure and long-term cardiac prevention. Patients value his calm, unhurried way of explaining every test and treatment." },
   { slug: "dr-sunita-rao", name: "Dr. Sunita Rao", role: "Senior Consultant, Obstetrics & Gynaecology", dept: "obstetrics-gynaecology", exp: "22 yrs", qual: "MBBS, MS (Obs & Gynae)", img: "doctor-2.jpg",

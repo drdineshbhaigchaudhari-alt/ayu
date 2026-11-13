@@ -104,7 +104,7 @@ export function Doctors() {
             {doctors.map((d, n) => (
               <Reveal className="doc" key={d.slug} delay={n}>
                 <div className="arch"><img src={img(d.img)} alt={d.name} /></div>
-                <h3>{d.name}</h3><div className="role">{d.role}</div><div className="qual">{d.qual} · {d.exp}</div>
+                <h3>{d.name}</h3><div className="role">{d.role}</div><div className="qual">{d.qual}{d.exp && ` · ${d.exp}`}</div>
                 <Link className="btn btn-gold" to={`/doctors/${d.slug}`} style={{ padding: "10px 22px" }}>View profile</Link>
               </Reveal>
             ))}
@@ -129,9 +129,9 @@ export function DoctorDetail() {
         <div className="wrap about-grid">
           <div className="about-art docphoto"><div className="arch"><img src={img(d.img)} alt={d.name} style={{ objectPosition: "top" }} /></div></div>
           <div>
-            <span className="eyebrow">{dept?.name}</span>
+            <span className="eyebrow">{dept?.name ?? d.speciality}</span>
             <h2>{d.name}</h2>
-            <p><strong>{d.role}</strong><br />{d.qual} · {d.exp} experience</p>
+            <p><strong>{d.role}</strong><br />{d.qual}{d.exp && ` · ${d.exp} experience`}</p>
             <p>{d.bio}</p>
             <p style={{ display: "flex", gap: 12, flexWrap: "wrap" }}>
               <Link className="btn btn-primary" to="/book-appointment">Book appointment <FaArrowRight /></Link>

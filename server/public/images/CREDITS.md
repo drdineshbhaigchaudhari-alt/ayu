@@ -7,3 +7,4 @@ Pexels photo IDs used: 19438563, 10695742, 5738735 (doctors); 31000573, 31613326
 These are stock photos. Replace them with real photographs of your hospital, doctors and staff before launch.
 
 - obstetrics.jpg: supplied by the hospital
+- child-health.jpg: Pexels photo 19357678 (doctor holding a newborn), cropped to portrait

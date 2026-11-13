@@ -193,7 +193,7 @@ export default function Home() {
                 <div className="arch"><img src={img(d.img)} alt={d.name} loading="lazy" /></div>
                 <h3>{d.name}</h3>
                 <div className="role">{d.role}</div>
-                <div className="qual">{d.qual} · {d.exp}</div>
+                <div className="qual">{d.qual}{d.exp && ` · ${d.exp}`}</div>
                 <Link className="btn btn-gold" to={`/doctors/${d.slug}`} style={{ padding: "10px 22px" }}>View profile</Link>
               </Reveal>
             ))}
